@@ -1,13 +1,11 @@
+import { Counter } from "./Features/counter.jsx";
+
 function App() {
-
-
-
-  
-  return (
-  <>
-
-  </>
-  )
+    return (
+        <div>
+            <Counter />
+        </div>
+    );
 }
 
 export default App;
