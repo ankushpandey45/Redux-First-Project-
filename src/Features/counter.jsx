@@ -7,20 +7,10 @@ const Counter = () => {
 
   return (
     <div>
-      <div>
+       <div>
         <h2>{count}</h2>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          Dec
-        </button>
-        <button
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          Inc
-        </button>
+        <button onClick={() => dispatch(decrement())}>Dec</button>
+        <button onClick={() => dispatch(increment())}>Inc</button>
       </div>
     </div>
   );
